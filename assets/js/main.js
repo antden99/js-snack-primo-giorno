@@ -41,5 +41,32 @@ let name = "Carlo"; //string
 name = "Marco"; //string
 console.log(name);
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+
+
+const myName= document.getElementById("nome").innerHTML="Francesco 1";
+console.log(myName);
+
+
+document.writeln("ciao, come stai?? 3");
+
+let surname= document.getElementById("cognome").innerHTML;
+console.log(surname);
+
+
+
+let var_1 = "Antonio";
+let var_2 = "Francesco";
+let var_3 = "Gerardina";
+
+
+
+console.log(`${var_1} ${var_2} ${var_3}`);
+
+const firstString = prompt("Inserisci il tuo nome:");
+const secondString = prompt("Inserisci il tuo nome:");
+console.log(firstString.length ,secondString.length);
+
+console.log(firstString.length > secondString.length);
 
